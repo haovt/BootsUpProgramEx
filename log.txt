@@ -1,0 +1,45 @@
+2021-08-23 08:12:07.386 +07:00 [INF] Loaded 5 extensions
+2021-08-23 08:12:07.642 +07:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-23 08:12:07.793 +07:00 [INF] Found Visual Studio v16.10.31321.278 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-23 08:12:07.795 +07:00 [INF] Found Visual Studio v16.5.30011.22 [C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools]
+2021-08-23 08:12:07.797 +07:00 [INF] Found Visual Studio v15.9.28307.1093 [C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools]
+2021-08-23 08:12:09.921 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 08:12:12.986 +07:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-23 08:12:13.024 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 08:12:14.911 +07:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-23 08:12:14.983 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 08:12:16.943 +07:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-23 08:12:17.871 +07:00 [INF] Reference to Newtonsoft package (Microsoft.AspNetCore.Mvc.NewtonsoftJson, version 5.0.9) needs added
+2021-08-23 08:12:17.896 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 08:12:19.760 +07:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-23 08:12:19.783 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 08:12:21.369 +07:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-23 08:12:21.376 +07:00 [INF] Running analyzers on CSharpBasicAndAdvanced
+2021-08-23 08:12:22.548 +07:00 [INF] Identified 0 diagnostics in project CSharpBasicAndAdvanced
+2021-08-23 08:12:22.548 +07:00 [INF] Running analyzers on CSharp8OrLater
+2021-08-23 08:12:22.795 +07:00 [INF] Identified 0 diagnostics in project CSharp8OrLater
+2021-08-23 08:12:22.795 +07:00 [INF] Running analyzers on NetCoreMVCApp
+2021-08-23 08:12:23.042 +07:00 [INF] Identified 0 diagnostics in project NetCoreMVCApp
+2021-08-23 08:12:23.042 +07:00 [INF] Running analyzers on LINQ
+2021-08-23 08:12:23.141 +07:00 [INF] Identified 0 diagnostics in project LINQ
+2021-08-23 08:12:23.141 +07:00 [INF] Running analyzers on NetFrameworkApp
+2021-08-23 08:12:23.166 +07:00 [INF] Identified 0 diagnostics in project NetFrameworkApp
+2021-08-23 08:14:33.397 +07:00 [INF] Loaded 5 extensions
+2021-08-23 08:14:33.638 +07:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-23 08:14:34.566 +07:00 [INF] Found Visual Studio v16.10.31321.278 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-23 08:14:34.568 +07:00 [INF] Found Visual Studio v16.5.30011.22 [C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools]
+2021-08-23 08:14:34.570 +07:00 [INF] Found Visual Studio v15.9.28307.1093 [C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools]
+2021-08-23 08:14:36.772 +07:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-23 08:14:36.796 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 08:14:36.798 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 08:14:36.799 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 08:14:36.800 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 09:03:57.593 +07:00 [INF] Loaded 5 extensions
+2021-08-23 09:03:57.998 +07:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.400\
+2021-08-23 09:03:58.215 +07:00 [INF] Found Visual Studio v16.11.31613.86 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-23 09:03:58.216 +07:00 [INF] Found Visual Studio v16.5.30011.22 [C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools]
+2021-08-23 09:03:58.218 +07:00 [INF] Found Visual Studio v15.9.28307.1093 [C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools]
+2021-08-23 09:03:59.253 +07:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 09:04:01.424 +07:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-23 09:04:01.436 +07:00 [INF] Running analyzers on NetFrameworkApp
+2021-08-23 09:04:02.275 +07:00 [INF] Identified 0 diagnostics in project NetFrameworkApp
