@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<SecretKey>Secret key value</SecretKey>
+	<section name="section0">
+		<key name="key0">value 00</key>
+		<key name="key1">value 01</key>
+	</section>
+</configuration>
