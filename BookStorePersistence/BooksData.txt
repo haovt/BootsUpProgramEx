@@ -1,0 +1,4 @@
+1,Linux222,Hamster,100
+5,Osis pscar,Bright 2,405
+6,Kernal,Village,80
+7,Wanted,Grim,100
