@@ -1,6 +1,7 @@
 ﻿using BookStoreService;
 using BookStoreService.Dto;
 using Ninject;
+using System;
 using System.Data;
 using System.Linq;
 using System.Windows;
@@ -67,12 +68,20 @@ namespace BookStoreWPF_UI
             popup.DataContext = newBook;
             var result = popup.ShowDialog();
 
+            // Validation
             if (result.HasValue && result.Value)
             {
-                _service.AddBook(newBook, fileMode);
+                try
+                {
+                    _service.AddBook(newBook, fileMode);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+               
                 Refresh();
             }
-     
         }
 
         private void SelectCurrentItem(object sender, KeyboardFocusChangedEventArgs e)

@@ -3,6 +3,7 @@ using BookStorePersistence;
 using BookStorePersistence.Domain;
 using BookStoreService.Dto;
 using Ninject;
+using System;
 using System.Collections.Generic;
 
 namespace BookStoreService
@@ -41,10 +42,20 @@ namespace BookStoreService
         {
             if (mode == FileMode.Text)
             {
+                if (_bsTextRepository.ExistBook(bookDto.Title))
+                {
+                    throw new Exception("Book existed. Please try again");
+                }
+
                 _bsTextRepository.AddBook(_mapper.Map<Book>(bookDto));
             }
             else
             {
+                if (_bsJsonRepository.ExistBook(bookDto.Title))
+                {
+                    throw new Exception("Book existed. Please try again");
+                }
+
                 _bsJsonRepository.AddBook(_mapper.Map<Book>(bookDto));
             }
         }
