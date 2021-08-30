@@ -30,6 +30,11 @@ namespace BookStorePersistence
             return BookStore;
         }
 
+        public bool ExistBook(string title)
+        {
+            return BookStore.Any(x => x.Title == title);
+        }
+
         public void AddBook(Book book)
         {
             book.Id = BookStore.Any() ? BookStore.Max(x => x.Id) + 1 : 1;
