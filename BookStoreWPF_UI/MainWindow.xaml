@@ -27,6 +27,7 @@
                     <GridViewColumn Header="Title" Width="150" DisplayMemberBinding="{Binding Title}" />
                     <GridViewColumn Header="Author" Width="150" DisplayMemberBinding="{Binding Author}" />
                     <GridViewColumn Header="Price" Width="100" DisplayMemberBinding="{Binding Price}" />
+                    <GridViewColumn Header="Price" Width="100" DisplayMemberBinding="{Binding Level}" />
                     <GridViewColumn Width="50">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
