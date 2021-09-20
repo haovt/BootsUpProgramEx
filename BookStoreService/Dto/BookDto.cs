@@ -7,6 +7,8 @@
         public string Author { get; set; }
         public int Price { get; set; }
 
+        public string Level { get; set; }
+
         public BookDto Copy()
         {
             return (BookDto)MemberwiseClone();
