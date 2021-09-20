@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj": {}
+    "D:\\Boots_Up_Program\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj": {}
   },
   "projects": {
-    "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj": {
+    "D:\\Boots_Up_Program\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj",
+        "projectUniqueName": "D:\\Boots_Up_Program\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj",
         "projectName": "BookStoreConsoleUI",
-        "projectPath": "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj",
+        "projectPath": "D:\\Boots_Up_Program\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj",
         "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-        "outputPath": "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\obj\\",
+        "outputPath": "D:\\Boots_Up_Program\\BookStoreConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj": {
-                "projectPath": "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj"
+              "D:\\Boots_Up_Program\\BookStoreService\\BookStoreService.csproj": {
+                "projectPath": "D:\\Boots_Up_Program\\BookStoreService\\BookStoreService.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj": {
+    "D:\\Boots_Up_Program\\BookStorePersistence\\BookStorePersistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj",
+        "projectUniqueName": "D:\\Boots_Up_Program\\BookStorePersistence\\BookStorePersistence.csproj",
         "projectName": "BookStorePersistence",
-        "projectPath": "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj",
+        "projectPath": "D:\\Boots_Up_Program\\BookStorePersistence\\BookStorePersistence.csproj",
         "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-        "outputPath": "D:\\BootsUpProgramEx\\BookStorePersistence\\obj\\",
+        "outputPath": "D:\\Boots_Up_Program\\BookStorePersistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -145,14 +145,14 @@
         }
       }
     },
-    "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj": {
+    "D:\\Boots_Up_Program\\BookStoreService\\BookStoreService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj",
+        "projectUniqueName": "D:\\Boots_Up_Program\\BookStoreService\\BookStoreService.csproj",
         "projectName": "BookStoreService",
-        "projectPath": "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj",
+        "projectPath": "D:\\Boots_Up_Program\\BookStoreService\\BookStoreService.csproj",
         "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-        "outputPath": "D:\\BootsUpProgramEx\\BookStoreService\\obj\\",
+        "outputPath": "D:\\Boots_Up_Program\\BookStoreService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -172,8 +172,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj": {
-                "projectPath": "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj"
+              "D:\\Boots_Up_Program\\BookStorePersistence\\BookStorePersistence.csproj": {
+                "projectPath": "D:\\Boots_Up_Program\\BookStorePersistence\\BookStorePersistence.csproj"
               }
             }
           }

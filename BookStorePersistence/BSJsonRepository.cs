@@ -7,7 +7,7 @@ namespace BookStorePersistence
 {
     public class BSJsonRepository : BSRepository, IBSRepository
     {
-        protected override string filePath => @"D:\Boots_Up_Program\Exampleprj\BookStorePersistence\BooksData.json";
+        protected override string filePath => @"D:\BootsUpProgramEx\BookStorePersistence\BooksData.json";
 
         protected override void WriteToFile()
         {

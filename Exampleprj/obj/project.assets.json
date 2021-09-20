@@ -457,11 +457,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BootsUpProgramEx\\Exampleprj\\CSharpBasicAndAdvanced.csproj",
+      "projectUniqueName": "D:\\Boots_Up_Program\\Exampleprj\\CSharpBasicAndAdvanced.csproj",
       "projectName": "CSharpBasicAndAdvanced",
-      "projectPath": "D:\\BootsUpProgramEx\\Exampleprj\\CSharpBasicAndAdvanced.csproj",
+      "projectPath": "D:\\Boots_Up_Program\\Exampleprj\\CSharpBasicAndAdvanced.csproj",
       "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-      "outputPath": "D:\\BootsUpProgramEx\\Exampleprj\\obj\\",
+      "outputPath": "D:\\Boots_Up_Program\\Exampleprj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

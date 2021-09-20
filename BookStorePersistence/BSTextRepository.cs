@@ -7,7 +7,7 @@ namespace BookStorePersistence
 {
     public class BSTextRepository : BSRepository, IBSRepository
     {
-        protected override string filePath => @"D:\Boots_Up_Program\Exampleprj\BookStorePersistence\BooksData.txt";
+        protected override string filePath => @"D:\BootsUpProgramEx\BookStorePersistence\BooksData.txt";
 
         protected override void WriteToFile()
         {

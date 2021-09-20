@@ -18,7 +18,7 @@ namespace NetFrameworkApp
 
             // Prior analyze before upgrading
             // upgrade-assistant analyze <Path to csproj or sln to analyze>
-            // e.g: upgrade-assistant analyze D:\Boots_Up_Program\Exampleprj\\NetFrameworkApp\NetFrameworkApp.csproj
+            // e.g: upgrade-assistant analyze D:\BootsUpProgramEx\\NetFrameworkApp\NetFrameworkApp.csproj
             // Result
             // [08:38:47 INF] Loaded 5 extensions
             // [08:38:48 INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
@@ -31,7 +31,7 @@ namespace NetFrameworkApp
             // [08:38:51 INF] Identified 0 diagnostics in project NetFrameworkApp
 
             // Start
-            // upgrade-assistant upgrade D:\Boots_Up_Program\Exampleprj\\NetFrameworkApp\NetFrameworkApp.csproj
+            // upgrade-assistant upgrade D:\BootsUpProgramEx\\NetFrameworkApp\NetFrameworkApp.csproj
             // 1. [Next step] Back up project
             // 2. Convert project file to SDK style
             // 3. Clean up NuGet package references

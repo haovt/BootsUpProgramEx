@@ -14,13 +14,13 @@ namespace BookStoreServiceTest
     // C:\Users\vha\AppData\Local\Apps\OpenCover
     // OpenCover.Console.exe -register:user
     // -target:"c:\Program Files\dotnet\dotnet.exe"
-    // -targetargs:"test D:\Boots_Up_Program\Exampleprj\BookStoreServiceTest\bin\Debug\net5.0\BookStoreTest.dll"
-    // -output:"D:\Boots_Up_Program\Exampleprj\BookStoreServiceTest\coverage.xml"
+    // -targetargs:"test D:\BootsUpProgramEx\BookStoreServiceTest\bin\Debug\net5.0\BookStoreTest.dll"
+    // -output:"D:\BootsUpProgramEx\BookStoreServiceTest\coverage.xml"
 
     // Report generator
     // dotnet C:\Users\vha\.nuget\packages\reportgenerator\4.8.12\tools\net5.0\ReportGenerator.dll
-    // "-reports:D:\Boots_Up_Program\Exampleprj\BookStoreServiceTest\coverage.xml"
-    // "-targetdir:D:\Boots_Up_Program\Exampleprj\BookStoreServiceTest\coveragereport"
+    // "-reports:D:\BootsUpProgramEx\BookStoreServiceTest\coverage.xml"
+    // "-targetdir:D:\BootsUpProgramEx\BookStoreServiceTest\coveragereport"
     // -reporttypes:Html
 
     [TestFixture]

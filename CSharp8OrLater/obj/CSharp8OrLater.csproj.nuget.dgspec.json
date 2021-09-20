@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BootsUpProgramEx\\CSharp8OrLater\\CSharp8OrLater.csproj": {}
+    "D:\\Boots_Up_Program\\CSharp8OrLater\\CSharp8OrLater.csproj": {}
   },
   "projects": {
-    "D:\\BootsUpProgramEx\\CSharp8OrLater\\CSharp8OrLater.csproj": {
+    "D:\\Boots_Up_Program\\CSharp8OrLater\\CSharp8OrLater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootsUpProgramEx\\CSharp8OrLater\\CSharp8OrLater.csproj",
+        "projectUniqueName": "D:\\Boots_Up_Program\\CSharp8OrLater\\CSharp8OrLater.csproj",
         "projectName": "CSharp8OrLater",
-        "projectPath": "D:\\BootsUpProgramEx\\CSharp8OrLater\\CSharp8OrLater.csproj",
+        "projectPath": "D:\\Boots_Up_Program\\CSharp8OrLater\\CSharp8OrLater.csproj",
         "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-        "outputPath": "D:\\BootsUpProgramEx\\CSharp8OrLater\\obj\\",
+        "outputPath": "D:\\Boots_Up_Program\\CSharp8OrLater\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

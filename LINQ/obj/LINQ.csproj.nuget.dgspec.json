@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BootsUpProgramEx\\LINQ\\LINQ.csproj": {}
+    "D:\\Boots_Up_Program\\LINQ\\LINQ.csproj": {}
   },
   "projects": {
-    "D:\\BootsUpProgramEx\\LINQ\\LINQ.csproj": {
+    "D:\\Boots_Up_Program\\LINQ\\LINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootsUpProgramEx\\LINQ\\LINQ.csproj",
+        "projectUniqueName": "D:\\Boots_Up_Program\\LINQ\\LINQ.csproj",
         "projectName": "LINQ",
-        "projectPath": "D:\\BootsUpProgramEx\\LINQ\\LINQ.csproj",
+        "projectPath": "D:\\Boots_Up_Program\\LINQ\\LINQ.csproj",
         "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-        "outputPath": "D:\\BootsUpProgramEx\\LINQ\\obj\\",
+        "outputPath": "D:\\Boots_Up_Program\\LINQ\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

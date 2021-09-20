@@ -5418,11 +5418,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BootsUpProgramEx\\BookStoreServiceTest\\BookStoreTest.csproj",
+      "projectUniqueName": "D:\\Boots_Up_Program\\BookStoreServiceTest\\BookStoreTest.csproj",
       "projectName": "BookStoreTest",
-      "projectPath": "D:\\BootsUpProgramEx\\BookStoreServiceTest\\BookStoreTest.csproj",
+      "projectPath": "D:\\Boots_Up_Program\\BookStoreServiceTest\\BookStoreTest.csproj",
       "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-      "outputPath": "D:\\BootsUpProgramEx\\BookStoreServiceTest\\obj\\",
+      "outputPath": "D:\\Boots_Up_Program\\BookStoreServiceTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5442,8 +5442,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj": {
-              "projectPath": "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj"
+            "D:\\Boots_Up_Program\\BookStoreService\\BookStoreService.csproj": {
+              "projectPath": "D:\\Boots_Up_Program\\BookStoreService\\BookStoreService.csproj"
             }
           }
         }

@@ -156,11 +156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BootsUpProgramEx\\NetFrameworkApp\\NetFrameworkApp.csproj",
+      "projectUniqueName": "D:\\Boots_Up_Program\\NetFrameworkApp\\NetFrameworkApp.csproj",
       "projectName": "NetFrameworkApp",
-      "projectPath": "D:\\BootsUpProgramEx\\NetFrameworkApp\\NetFrameworkApp.csproj",
+      "projectPath": "D:\\Boots_Up_Program\\NetFrameworkApp\\NetFrameworkApp.csproj",
       "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-      "outputPath": "D:\\BootsUpProgramEx\\NetFrameworkApp\\obj\\",
+      "outputPath": "D:\\Boots_Up_Program\\NetFrameworkApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -666,11 +666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BootsUpProgramEx\\NetCoreMVCApp\\NetCoreMVCApp.csproj",
+      "projectUniqueName": "D:\\Boots_Up_Program\\NetCoreMVCApp\\NetCoreMVCApp.csproj",
       "projectName": "NetCoreMVCApp",
-      "projectPath": "D:\\BootsUpProgramEx\\NetCoreMVCApp\\NetCoreMVCApp.csproj",
+      "projectPath": "D:\\Boots_Up_Program\\NetCoreMVCApp\\NetCoreMVCApp.csproj",
       "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-      "outputPath": "D:\\BootsUpProgramEx\\NetCoreMVCApp\\obj\\",
+      "outputPath": "D:\\Boots_Up_Program\\NetCoreMVCApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
