@@ -8,7 +8,9 @@ namespace BookStoreService
     {
         public BookMappingProfile()
         {
-            this.CreateMap<BookDto, Book>().ReverseMap();
+            this.CreateMap<Book, BookDto>()
+                .ForMember(desc => desc.Level, opt => opt.MapFrom(new CustomValueResolver()));
+            this.CreateMap<BookDto, Book>();
         }
     }
 }

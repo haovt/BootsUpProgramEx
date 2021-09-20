@@ -3,11 +3,12 @@ using System.Collections.Generic;
 
 namespace BookStoreService
 {
-    public interface IBSService
+    public interface IBSRepository
     {
-        IList<BookDto> GetAll(FileMode mode = FileMode.Text);
-        void AddBook(BookDto book, FileMode mode = FileMode.Text);
-        void UpdateBook(BookDto book, FileMode mode = FileMode.Text);
-        void DeleteBook(int bookdId, FileMode mode = FileMode.Text);
+        IList<BookDto> GetAll();
+        void AddBook(BookDto book);
+        void UpdateBook(BookDto book);
+        void DeleteBook(int bookdId);
+        bool IsBookExisted(string title);
     }
 }

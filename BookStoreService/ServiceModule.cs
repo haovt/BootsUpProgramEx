@@ -7,9 +7,10 @@ namespace BookStoreService
     {
         public override void Load()
         {
-            Bind<IBSService>().To<BSService>();
-            Bind<IBSRepository>().To<BSTextRepository>().Named("TextRepo");
-            Bind<IBSRepository>().To<BSJsonRepository>().Named("JsonRepo");
+            Bind<IBSRepository>().To<BSService>().Named("TextRepo");
+            Bind<IBSRepository>().To<BSService>().Named("JsonRepo");
+            Bind<BookStorePersistence.IBSRepository>().To<BSTextRepository>().WhenAnyAncestorNamed("TextRepo");
+            Bind<BookStorePersistence.IBSRepository>().To<BSJsonRepository>().WhenAnyAncestorNamed("JsonRepo");
         }
     }
 }

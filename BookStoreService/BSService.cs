@@ -10,17 +10,14 @@ namespace BookStoreService
 {
     // HTTP Error 500.0 - ANCM In-Process Handler Load Failure
     // for .NET Framework
-    public class BSService : IBSService
+    public class BSService : IBSRepository
     {
-        private readonly IBSRepository _bsTextRepository;
-        private readonly IBSRepository _bsJsonRepository;
+        private readonly BookStorePersistence.IBSRepository _bsRepository;
         private readonly IMapper _mapper;
 
-        public BSService([Named("TextRepo")] IBSRepository bsTextRepository,
-            [Named("JsonRepo")] IBSRepository bsJsonRepository)
+        public BSService(BookStorePersistence.IBSRepository bsRepository)
         {
-            _bsTextRepository = bsTextRepository;
-            _bsJsonRepository = bsJsonRepository;
+            _bsRepository = bsRepository;
 
             _mapper = new MapperConfiguration(cfg =>
             {
@@ -28,64 +25,38 @@ namespace BookStoreService
             }).CreateMapper();
         }
 
-        public IList<BookDto> GetAll(FileMode mode = FileMode.Text)
+        public IList<BookDto> GetAll()
         {
-            if (mode == FileMode.Text)
-            {
-                return _mapper.Map<IList<BookDto>>(_bsTextRepository.GetAll());
-            }
-
-            return _mapper.Map<IList<BookDto>>(_bsJsonRepository.GetAll());
+            return _mapper.Map<IList<BookDto>>(_bsRepository.GetAll());
         }
 
-        public void AddBook(BookDto bookDto, FileMode mode = FileMode.Text)
+        public void AddBook(BookDto bookDto)
         {
-            if (mode == FileMode.Text)
+            if (IsBookExisted(bookDto.Title))
             {
-                if (_bsTextRepository.ExistBook(bookDto.Title))
-                {
-                    throw new Exception("Book existed. Please try again");
-                }
-
-                _bsTextRepository.AddBook(_mapper.Map<Book>(bookDto));
+                throw new Exception("Book existed. Please try again");
             }
-            else
-            {
-                if (_bsJsonRepository.ExistBook(bookDto.Title))
-                {
-                    throw new Exception("Book existed. Please try again");
-                }
 
-                _bsJsonRepository.AddBook(_mapper.Map<Book>(bookDto));
-            }
+            _bsRepository.AddBook(_mapper.Map<Book>(bookDto));
         }
 
-        public void UpdateBook(BookDto bookDto, FileMode mode = FileMode.Text)
+        public void UpdateBook(BookDto bookDto)
         {
-            if (mode == FileMode.Text)
-            {
-                _bsTextRepository.UpdateBook(_mapper.Map<Book>(bookDto));
-            }
-            else
-            {
-                _bsJsonRepository.UpdateBook(_mapper.Map<Book>(bookDto));
-            }
+            _bsRepository.UpdateBook(_mapper.Map<Book>(bookDto));
         }
 
-        public void DeleteBook(int bookdId, FileMode mode = FileMode.Text)
+        public void DeleteBook(int bookdId)
         {
-            if (mode == FileMode.Text)
-            {
-                _bsTextRepository.DeleteBook(bookdId);
-            }
-            else
-            {
-                _bsJsonRepository.DeleteBook(bookdId);
-            }
+            _bsRepository.DeleteBook(bookdId);
+        }
+
+        public bool IsBookExisted(string title)
+        {
+            return _bsRepository.ExistBook(title);
         }
     }
 
-    public enum FileMode
+    public enum ReadFileMode
     {
         Text = 1,
         Json
