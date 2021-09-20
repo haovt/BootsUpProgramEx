@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Boots_Up_Program\\Exampleprj\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj": {}
+    "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj": {}
   },
   "projects": {
-    "D:\\Boots_Up_Program\\Exampleprj\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj": {
+    "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Boots_Up_Program\\Exampleprj\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj",
+        "projectUniqueName": "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj",
         "projectName": "BookStoreConsoleUI",
-        "projectPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj",
+        "projectPath": "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\BookStoreConsoleUI.csproj",
         "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-        "outputPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStoreConsoleUI\\obj\\",
+        "outputPath": "D:\\BootsUpProgramEx\\BookStoreConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Boots_Up_Program\\Exampleprj\\BookStoreService\\BookStoreService.csproj": {
-                "projectPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStoreService\\BookStoreService.csproj"
+              "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj": {
+                "projectPath": "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
             "Ninject": {
               "target": "Package",
               "version": "[3.3.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
             }
           },
           "imports": [
@@ -62,23 +66,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.9, 5.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\BookStorePersistence.csproj": {
+    "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\BookStorePersistence.csproj",
+        "projectUniqueName": "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj",
         "projectName": "BookStorePersistence",
-        "projectPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\BookStorePersistence.csproj",
+        "projectPath": "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj",
         "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-        "outputPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\obj\\",
+        "outputPath": "D:\\BootsUpProgramEx\\BookStorePersistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -131,18 +141,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Boots_Up_Program\\Exampleprj\\BookStoreService\\BookStoreService.csproj": {
+    "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Boots_Up_Program\\Exampleprj\\BookStoreService\\BookStoreService.csproj",
+        "projectUniqueName": "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj",
         "projectName": "BookStoreService",
-        "projectPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStoreService\\BookStoreService.csproj",
+        "projectPath": "D:\\BootsUpProgramEx\\BookStoreService\\BookStoreService.csproj",
         "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-        "outputPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStoreService\\obj\\",
+        "outputPath": "D:\\BootsUpProgramEx\\BookStoreService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -162,8 +172,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\BookStorePersistence.csproj": {
-                "projectPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\BookStorePersistence.csproj"
+              "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj": {
+                "projectPath": "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj"
               }
             }
           }
@@ -182,11 +192,43 @@
               "target": "Package",
               "version": "[10.1.1, )"
             },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -195,6 +237,18 @@
             "Ninject": {
               "target": "Package",
               "version": "[3.3.4, )"
+            },
+            "OpenCover": {
+              "target": "Package",
+              "version": "[4.7.1221, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[4.8.12, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
             }
           },
           "imports": [
@@ -207,7 +261,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
         }
       }
     }

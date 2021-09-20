@@ -1,0 +1,9 @@
+packages/bootstrap.3.4.1/
+packages/jQuery.3.4.1/
+packages/
+NetFrameworkApp_Before/obj/Debug/
+NetFrameworkApp.backup/obj/Debug/
+NetFrameworkApp.backup/bin/Debug/
+NetFrameworkApp_Before/bin/Debug/
+.vs/
+*.cache

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Boots_Up_Program\\Exampleprj\\CSharp8OrLater\\CSharp8OrLater.csproj",
+      "projectUniqueName": "D:\\BootsUpProgramEx\\CSharp8OrLater\\CSharp8OrLater.csproj",
       "projectName": "CSharp8OrLater",
-      "projectPath": "D:\\Boots_Up_Program\\Exampleprj\\CSharp8OrLater\\CSharp8OrLater.csproj",
+      "projectPath": "D:\\BootsUpProgramEx\\CSharp8OrLater\\CSharp8OrLater.csproj",
       "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-      "outputPath": "D:\\Boots_Up_Program\\Exampleprj\\CSharp8OrLater\\obj\\",
+      "outputPath": "D:\\BootsUpProgramEx\\CSharp8OrLater\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,12 +59,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.9, 5.0.9]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -222,11 +222,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\BookStorePersistence.csproj",
+      "projectUniqueName": "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj",
       "projectName": "BookStorePersistence",
-      "projectPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\BookStorePersistence.csproj",
+      "projectPath": "D:\\BootsUpProgramEx\\BookStorePersistence\\BookStorePersistence.csproj",
       "packagesPath": "C:\\Users\\vha\\.nuget\\packages\\",
-      "outputPath": "D:\\Boots_Up_Program\\Exampleprj\\BookStorePersistence\\obj\\",
+      "outputPath": "D:\\BootsUpProgramEx\\BookStorePersistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -279,7 +279,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
       }
     }
   }

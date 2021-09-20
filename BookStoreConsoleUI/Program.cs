@@ -1,5 +1,7 @@
 ﻿using BookStoreService;
 using BookStoreService.Dto;
+using log4net;
+using log4net.Config;
 using Ninject;
 using System;
 using System.Collections.Generic;
@@ -9,23 +11,28 @@ namespace BookStoreConsoleUI
 {
     class Program
     {
-        private static IBSService _service;
-        private static FileMode fileMode = FileMode.Text;
+        private static IBSRepository _service;
+        private static ReadFileMode fileMode = ReadFileMode.Text;
+        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
 
         static void Main(string[] args)
         {
+            BasicConfigurator.Configure();
+
             IKernel kernel = new StandardKernel(new ServiceModule());
-            _service = kernel.Get<IBSService>();
 
             Console.WriteLine("Book Store app started! Please select file mode:");
             Console.WriteLine("1 - Text");
             Console.WriteLine("2 - Json");
             string modeText = Console.ReadLine();
             int mode = Convert.ToInt32(modeText);
-            fileMode = (FileMode)mode;
+            fileMode = (ReadFileMode)mode;
+
+            _service = fileMode == ReadFileMode.Text ? kernel.Get<IBSRepository>("TextRepo")
+                : kernel.Get<IBSRepository>("JsonRepo");
 
             Console.WriteLine("Below are all books in store:");
-            var books = _service.GetAll(fileMode).ToList();
+            var books = _service.GetAll().ToList();
             RefreshScreen(books);
 
             Console.WriteLine("Please select action:");
@@ -56,7 +63,8 @@ namespace BookStoreConsoleUI
         {
             if (books == null || !books.Any())
             {
-                books = _service.GetAll(fileMode).ToList();
+                log.Info($"GetAll(): get all Books from {fileMode} mode");
+                books = _service.GetAll().ToList();
             }
 
             foreach (var book in books)
@@ -85,7 +93,8 @@ namespace BookStoreConsoleUI
                 Price = price
             };
 
-            _service.AddBook(newBook, fileMode);
+            log.Info($"Insert new book: Title={title}, Author={author}, Price={price}");
+            _service.AddBook(newBook);
             RefreshScreen();
         }
 
@@ -108,23 +117,29 @@ namespace BookStoreConsoleUI
                 case "1":
                     Console.WriteLine("Enter new value");
                     string title = Console.ReadLine();
+                    var oldTitle = book.Title;
                     book.Title = title;
-                    _service.UpdateBook(book, fileMode);
+                    log.Info($"Update book's title from {oldTitle} to {title}");
+                    _service.UpdateBook(book);
                     RefreshScreen();
                     break;
                 case "2":
                     Console.WriteLine("Enter new value");
                     string author = Console.ReadLine();
-                    book.Title = author;
-                    _service.UpdateBook(book, fileMode);
+                    var oldAuthor = book.Author;
+                    book.Author = author;
+                    log.Info($"Update book's author from {oldAuthor} to {author}");
+                    _service.UpdateBook(book);
                     RefreshScreen();
                     break;
                 case "3":
                     Console.WriteLine("Enter new value");
                     string priceText = Console.ReadLine();
                     int price = Convert.ToInt32(priceText);
+                    var oldPrice = book.Price;
                     book.Price = price;
-                    _service.UpdateBook(book, fileMode);
+                    log.Info($"Update book's price from {oldPrice} to {price}");
+                    _service.UpdateBook(book);
                     RefreshScreen();
                     break;
                 default:
@@ -139,8 +154,8 @@ namespace BookStoreConsoleUI
             Console.WriteLine("Please enter Book's Id to delete:");
             string bookId = Console.ReadLine();
             int id = Convert.ToInt32(bookId);
-
-            _service.DeleteBook(id, fileMode);
+            log.Info($"Delete book with Id={id}");
+            _service.DeleteBook(id);
             RefreshScreen();
         }
     }
